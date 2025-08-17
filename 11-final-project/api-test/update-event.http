@@ -1,0 +1,9 @@
+PUT http://localhost:8080/events/1
+Content-Type: application/json
+
+{
+    "name": "Go test test",
+    "description": "update update",
+    "location": "London",
+    "dateTime": "2039-01-01T10:00:00Z"
+}

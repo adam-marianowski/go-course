@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im15c2VsZkB0ZXN0LmNvbSIsImV4cCI6MTc1NTQ1MzcxOCwidXNlcklkIjoxfQ.IeXcknwmrtDM_STBhta2I8IOK7mqqRcI1DeY297t7Cs
+
+{
+    "name": "Jurassic Park",
+    "description": "A conference for Go enthusiasts",
+    "location": "San Francisco",
+    "dateTime": "2025-01-01T10:00:00Z"
+}
